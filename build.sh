@@ -60,7 +60,7 @@ link() {
     cd ..
 
     if [ ! -L "font" ]; then
-        ln -s "$DIR/dist/viosevka" font
+        ln -s "$DIR/dist/Viosevka" font
     fi
 
     log "Font built successfully."
