@@ -15,7 +15,7 @@ jobs:
 
             - uses: actions/setup-node@v4
               with:
-                  node-version: '14'
+                  node-version: '20'
 
             - name: Get system packages
               run: sudo apt install ttfautohint libttfautohint-dev
