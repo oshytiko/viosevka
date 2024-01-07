@@ -53,7 +53,7 @@ build() {
     npm install
 
     log "Building default font."
-    npm run build -- ttf::viosevka
+    npm run build -- ttf::Viosevka
 }
 
 link() {
