@@ -1,38 +1,34 @@
-[buildPlans.viosevka]
-family   = "Viosevka"
-spacing  = "normal"
-serifs   = "slab"
-no-cv-ss = true
+[buildPlans.Viosevka]
+family = "Viosevka"
+spacing = "normal"
+serifs = "slab"
+noCvSs = true
+exportGlyphNames = false
 
-[buildPlans.viosevka.variants.design]
+[buildPlans.Viosevka.variants.design]
 capital-g = "toothless-corner-inward-serifed-capped"
 capital-j = "serifed-both-sides"
-capital-k = "curly"
-capital-q = "crossing"
-capital-r = "curly"
-a = "single-storey-motion-serifed"
+capital-q = "crossing-baseline"
 g = "double-storey"
-k = "curly"
 lower-iota = "zshaped"
 lower-lambda = "curly-turn"
-cyrl-ka = "curly"
-three = "flattop"
+three = "flat-top"
 six = "closed-contour"
 seven = "bend-serifed"
 eight = "two-circles"
 nine = "closed-contour"
 asterisk = "hex-low"
 underscore = "above-baseline"
-paragraph-sign = "low"
 paren = "flat-arc"
 brace = "straight"
 ampersand = "upper-open"
-at = "short"
+at = "compact"
 dollar = "open"
 cent = "open"
 percent = "rings-continuous-slash"
-lig-ltgteq = "slanted"
 question = "corner"
+pilcrow = "low"
+lig-ltgteq = "slanted"
 
-  [buildPlans.viosevka.ligations]
+  [buildPlans.Viosevka.ligations]
   inherits = "dlig"
